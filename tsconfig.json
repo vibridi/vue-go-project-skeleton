@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "baseUrl": "./view",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "view/src/**/*.ts",
+    "view/src/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules",
+    "view/build"
+  ]
+}
